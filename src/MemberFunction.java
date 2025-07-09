@@ -2,9 +2,9 @@ public class MemberFunction {
         public static void main(String[] args) {
 
 
-            CalculateScore(true,800,5,100);
+            System.out.println("First Score is " + CalculateScore(true,800,5,100));
 
-            CalculateScore(true,1000,9,210);
+            System.out.print("Second Score is " + CalculateScore(true,1000,9,210));
         }
 
     public static int CalculateScore(boolean GameOver, int Score, int LevelCompleted, int Bonus) {
