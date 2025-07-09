@@ -7,12 +7,11 @@ public class MemberFunction {
             CalculateScore(true,1000,9,210);
         }
 
-    public static void CalculateScore(boolean GameOver, int Score, int LevelCompleted, int Bonus) {
+    public static int CalculateScore(boolean GameOver, int Score, int LevelCompleted, int Bonus) {
         int FinalScore = Score + (LevelCompleted * Bonus);
         if (GameOver == true) {
-            System.out.println("Final Score is Equal to " + FinalScore);
         }
-
+        return FinalScore;
     }
 }
 
