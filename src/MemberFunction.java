@@ -9,8 +9,7 @@ public class MemberFunction {
 
     public static int CalculateScore(boolean GameOver, int Score, int LevelCompleted, int Bonus) {
         int FinalScore = Score + (LevelCompleted * Bonus);
-        if (GameOver == true) {
-        }
+
         return FinalScore;
     }
 }
